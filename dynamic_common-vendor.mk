@@ -431,7 +431,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     MotoSignatureApp \
-    com.qualcomm.location \
     DynamicDDSService \
     FMRadioService \
     QtiTelephonyService \
