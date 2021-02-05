@@ -154,6 +154,18 @@ android_app_import {
 }
 
 dex_import {
+	name: "QPerformance",
+	owner: "motorola",
+	jars: ["proprietary/framework/QPerformance.jar"],
+}
+
+dex_import {
+	name: "UxPerformance",
+	owner: "motorola",
+	jars: ["proprietary/framework/UxPerformance.jar"],
+}
+
+dex_import {
 	name: "com.motorola.frameworks.core.addon",
 	owner: "motorola",
 	jars: ["proprietary/framework/com.motorola.frameworks.core.addon.jar"],
@@ -166,6 +178,24 @@ dex_import {
 }
 
 dex_import {
+	name: "moto-ims-ext",
+	owner: "motorola",
+	jars: ["proprietary/framework/moto-ims-ext.jar"],
+}
+
+dex_import {
+	name: "moto-settings",
+	owner: "motorola",
+	jars: ["proprietary/framework/moto-settings.jar"],
+}
+
+dex_import {
+	name: "moto-telephony",
+	owner: "motorola",
+	jars: ["proprietary/framework/moto-telephony.jar"],
+}
+
+dex_import {
 	name: "com.qti.snapdragon.sdk.display",
 	owner: "motorola",
 	jars: ["proprietary/framework/com.qti.snapdragon.sdk.display.jar"],
@@ -175,6 +205,14 @@ dex_import {
 	name: "qcom-moto-telephony-ext",
 	owner: "motorola",
 	jars: ["proprietary/framework/qcom-moto-telephony-ext.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "qcom-moto-ims-ext",
+	owner: "motorola",
+	jars: ["proprietary/framework/qcom-moto-ims-ext.jar"],
+	system_ext_specific: true,
 }
 
 dex_import {
@@ -230,7 +268,7 @@ dex_import {
 	name: "qti-telephony-common",
 	owner: "motorola",
 	jars: ["proprietary/product/framework/qti-telephony-common.jar"],
-	product_specific: true,
+	system_ext_specific: true,
 }
 
 dex_import {

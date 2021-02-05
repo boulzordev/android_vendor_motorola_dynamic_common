@@ -442,6 +442,8 @@ PRODUCT_PACKAGES += \
     atfwd \
     ims \
     qcrilmsgtunnel \
+    QPerformance \
+    UxPerformance \
     com.motorola.frameworks.core.addon \
     com.motorola.motosignature \
     com.qti.snapdragon.sdk.display \
@@ -466,4 +468,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.callinfo-V1.0-java \
     vendor.qti.ims.rcsconfig-V1.0-java \
     vendor.qti.latency-V2.0-java \
-    vendor.qti.voiceprint-V1.0-java
+    vendor.qti.voiceprint-V1.0-java \
+    moto-ims-ext \
+    moto-settings \
+    moto-telephony \
+    qcom-moto-ims-ext
